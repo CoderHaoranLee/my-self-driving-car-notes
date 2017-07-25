@@ -1,3 +1,4 @@
-# My Awesome Book
+# My Self-driving System Roadmap
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+总结过去一年学习到的关于构建自动驾驶系统的一些知识。一方面加强自己的记忆，形成一个好的学习习惯；另一方面对自动驾驶系统的理解结构化，厘清在自动驾驶系统中工程与学术的方向差异，为自己下一步计划做铺垫。
+

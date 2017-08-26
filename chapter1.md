@@ -13,4 +13,8 @@ TORCS
 斯坦福的源码，不知道咋用（D/rdr\_public）
 
 
+Lexus RX450h
+Ford Fusion
+Lincoln MKZ
+
 

@@ -14,3 +14,4 @@
 
 由于自动驾驶技术的研究基本成熟，在不同尺寸的平台上也实现了许多令人印象深刻的演示。Recent studies have also been conducted to model and anticipate the social impact of implementing autonomous Mobility-on-Demand(MoD). The case studies have shown that MoD system would make access to mobility more affordable and convenient compared to traditional mobility system characterized by extensive private vechile ownership.
 
+由于几个商业实体推动学术界的极限，近几年在城市道路上自动驾驶汽车的发展也是突飞猛进。谷歌在这个领域有最多的经验，其自动驾驶汽车已经进行了200万英里（mile）的测试， with experience to soon launch a pilot MoD service project using 100 self-driving vehicles.

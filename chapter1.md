@@ -13,8 +13,10 @@ TORCS
 斯坦福的源码，不知道咋用（D/rdr\_public）
 
 
-Lexus RX450h
-Ford Fusion
-Lincoln MKZ
+Lexus RX450h: Google
+Ford Fusion: Golden State, Udacity
+Lincoln MKZ: Baidu, Drive.ai, Nvidia
+
+drive-by-wire: 线控
 
 

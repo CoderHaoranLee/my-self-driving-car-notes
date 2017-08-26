@@ -12,4 +12,5 @@
 
 最早进行自动驾驶汽车的研究可以追溯到1918年，而电视广播才起于1958年。1988年，卡耐基梅隆（Carnegie Mellon）的NAVLAB汽车可以根据摄像头图像进行车道保持。2004年和2005年的DARPA Grand Challenges的要求汽车能够自动穿过沙漠，以及2007年的城市挑战赛（DARPA Urban Challenge，DUC）要求穿过城市街道，这大大加速了自动驾驶的发展。自此自动驾驶在学术界迎来的飞速的发展，此外，工业界也迎来越来越多的关注。
 
-由于自动驾驶技术的研究基本成熟，在不同尺寸的平台上也实现了许多令人印象深刻的演示。
+由于自动驾驶技术的研究基本成熟，在不同尺寸的平台上也实现了许多令人印象深刻的演示。Recent studies have also been conducted to model and anticipate the social impact of implementing autonomous Mobility-on-Demand(MoD). The case studies have shown that MoD system would make access to mobility more affordable and convenient compared to traditional mobility system characterized by extensive private vechile ownership.
+

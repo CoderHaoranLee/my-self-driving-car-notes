@@ -39,3 +39,4 @@ Lidar输出的是从物体上反射回来的稀疏的三维点，每个点对应
 
 像上面提到的，基于模型的方法能够很好的用来平面提取。一般来说，点云分割的第一步都是去除地面，然后其他像区域生长法，在此基础上对剩下的点云进行聚类。但是，基于模型的方法最大的问题是没有考虑邻域信息以及上下文信息（neighborhood and context information），它很有可能把一些随机点拟合成一个特殊模型。此外，该方法对点云的密度，位置精度和噪声比较敏感。
 
+基于属性的方法一般来说有两步，第一步是计算每个点的属性，第二步是根据根据这些属性对点进行聚类。As mentioned in [30], this set of methods allow for more cues to be incorporated into the formulation on top spatial information. 但是分割成功的关键仍然在于隐含的属性。

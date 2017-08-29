@@ -58,3 +58,8 @@ Lidar输出的是从物体上反射回来的稀疏的三维点，每个点对应
 这些方法是最近发展不久的，在实时应用上还有一些问题，但是这些方法对点云分割问题提供了一个新的视角。像检测算法中提到一样，这些方法可以对检测和分割算法进行整合。
 
 ### 检测算法
+
+分割之后，每个聚集的点云簇都需要划分到不同的类别。每个点云簇包含的信息主要是点的空间信息和每个点的反射强度，这些信息对于物体识别来说太少了。有些研究者将视觉的数据和点云数据融合之后做识别，也有也有一些研究者直接利用点云做物体识别。
+
+文献[25]中，作者用一个分类器来识别地面。For each segment, a histogram over all the surface normal vectors' height values was generated, and if the last bin contained the most votes, that segment was classified as ground. 该算法不能区分地面上的物体。
+

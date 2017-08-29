@@ -63,3 +63,6 @@ Lidar输出的是从物体上反射回来的稀疏的三维点，每个点对应
 
 文献[25]中，作者用一个分类器来识别地面。For each segment, a histogram over all the surface normal vectors' height values was generated, and if the last bin contained the most votes, that segment was classified as ground. 该算法不能区分地面上的物体。
 
+zhang等人利用支撑向量机做分类器，可以区分地面，植物，建筑，电线，和车辆。他们提取了点云的13个特征作为分类器的输入。但是，这个分类器仍然比较粗糙，在自动驾驶中不能很好的使用。
+
+相比于前面提到的几种方法，最近发展的机器学习算法在识别任务上更稳定。在文献[65]中提出了VoxNet方法，该方法利用3D卷积进行点云分类。文献[66]提出了一种基于容量的3D卷积网络，并且introducing auxiliary learning tasks on part of an object and combining data augmentation with multi-orientation pooling. 文献[67]提出了一种3D卷积深度置信网络可以学习到不同类别任意姿态复杂3D形状的分布。

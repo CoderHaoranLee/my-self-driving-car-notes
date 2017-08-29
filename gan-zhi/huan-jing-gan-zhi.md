@@ -42,3 +42,10 @@ Lidar输出的是从物体上反射回来的稀疏的三维点，每个点对应
 基于属性的方法一般来说有两步，第一步是计算每个点的属性，第二步是根据根据这些属性对点进行聚类。As mentioned in [30], this set of methods allow for more cues to be incorporated into the formulation on top spatial information. 但是分割成功的关键仍然在于隐含的属性。
 
 除了文献[30]中提到的一些方法，文献[56]中提到的基于属性的方法可以分割木棍状的物体，这种分割任务由于比较细窄，往往比较困难。在这种算法中，先确定最有临近点数量的大小。然后根据临近点的信息，利用主成分分析（PCA）的方法提取该点的几何特征（geometric），然后将该特征作为输入，利用LIBSVM把每个点增加3类属性（直线，平面和球）。最后根据这些关联的属性对点进行分割。
+
+文献经常使用的另一种方法是基于图的方法。这种方法将点云数据转换成图的结构，其中每个点作为图中的节点/顶点，相邻的点相互连接构成图中的边。由于基于图的方法可以考虑局部和全局的线索，以及局部的信息，纹理，平滑度等其他特征，可以在全局的范围内进行优化，因此在图像语义分割中有较好的效果。
+
+根据图像分割中的图割方法，在点云分割领域，也有一些研究者使用条件随机场（Conditional Random Field）或马尔可夫随机场（Markov Random Field）以及通过最大流最小割等方法进行点云处理研究。
+
+在文献[59,60]中，作者第一次使用K近邻图，assigned each node according to a background penalty function, added hard foreground constraints, 再通过最小割的方法进行前景和背景的分割。Moosmann等人根据局部凸性测量利用基于图的方法进行了地面和物体的分割。
+
